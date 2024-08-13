@@ -1,4 +1,4 @@
-# Estrutura de dados (Loiane Gronner)
+# Estrutura de dados com java (Loiane Gronner)
 
 * Vetores (Arrays)
 * Pilhas (Stacks)
