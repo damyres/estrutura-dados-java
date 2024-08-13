@@ -1,0 +1,11 @@
+# Estrutura de dados (Loiane Gronner)
+
+* Vetores (Arrays)
+* Pilhas (Stacks)
+* Filas (Queues)
+* Listas encandeadas(Linked lists)
+* Listas duplamente encandeadas (Doubly-Linked lists)
+* Conjuntos (Sets)
+* Tabelas de hashing (HashTables)
+* Árvores (Trees)
+* Grafos (Graphs)
