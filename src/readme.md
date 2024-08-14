@@ -1,7 +1,7 @@
 # Estrutura de dados com java (Loiane Gronner)
 
 * Vetores (Arrays)
-    - Definição
+    - Definição 
     - Adicionar elemento final do vetor
     - Verificar quantidade de elemento no vetor
     - imprimir elementos do vetor
