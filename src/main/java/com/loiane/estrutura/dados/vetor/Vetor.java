@@ -1,7 +1,8 @@
 package com.loiane.estrutura.dados.vetor;
 
 public class Vetor {
-    public static void main(String[] args){
+
+    public static void main(String[] args) {
 
       /*  double temperaturas[] = new double[10];
 
@@ -32,12 +33,46 @@ public class Vetor {
 
 */
     }
-    private String [] elementos;
 
-    public Vetor(int capacidade){
+    private String[] elementos;
+    private int tamanho;
+
+    public Vetor(int capacidade) {
         this.elementos = new String[capacidade];
-
+        this.tamanho = 0;
 
     }
+    /*
 
+    //metodo adicionar sem verificar o tamanho do array
+    public void adiciona(String elemento) {
+        for (int i = 0; i < this.elementos.length; i++) {
+            if (this.elementos[i] == null) {
+                this.elementos[i] = elemento;
+                break;
+            }
+        }
+    }
+
+    //metodo para adicionar e verifcar se o array tem tamanho disponível
+    public void adiciona(String elemento) throws Exception {
+        if (this.tamanho < this.elementos.length) {
+            this.elementos[this.tamanho] = elemento;
+            this.tamanho++;
+        } else {
+            throw new Exception("Vetor já está cheio, não é possível adicionar mais um elemento");
+        }
+    }
+
+     */
+
+    public boolean adiciona(String elemento) {
+        if (this.tamanho < this.elementos.length) {
+            this.elementos[this.tamanho] = elemento;
+            this.tamanho++;
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
